@@ -19,7 +19,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    func test() {
+        for bob in 1...10 {
+            print("Hello \(bob)")
+        }
+    }
 }
 
