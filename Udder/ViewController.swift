@@ -23,7 +23,9 @@ class ViewController: UIViewController {
     func test() {
         for bob in 1...10 {
             print("Hello \(bob)")
+            print("me again")
         }
     }
+    
 }
 
